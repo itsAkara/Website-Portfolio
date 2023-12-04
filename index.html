@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Welcome to my website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/3a0534e7fb.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+                <img src="images/logo.png" class="logo">
+                    <ul class="navlist">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#portfolio">PROJECTS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <i class="fa-solid fa-xmark"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars"></i>
+        </header>
+        <section class="home">
+            <div class="header-text">
+                <h1>Hi, I'm <span>Sid</span><br>
+                    <h3>Graphic Designer</h3>
+            </div>
+            <img src="images/usbg.png" class="usbg">
+        </section>
+
+<!-- -------------------- about --------------------- -->
+        <div id="about" class="hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>My name is Muhamad Sidiq, i'm a Graphic Designer based in Bandung, Indonesia.
+                            People also call me Akara, i like music, film, art, poem and poetry.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <!--skills-->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Graphic Design</span><br>Using Adobe Photoshop and Adobe Illustrator for designing poster, social media post, shirt print, mockup, edit photos.</li>
+                                <li><span>Motion Design & Editing</span><br>Using Adobe After Effects producing motion graphics video and Adobe Premiere Pro for video editing.</li>
+                                <li><span>Photography & Videography</span><br>Able to shoot photos or videos using smartphone or camera.</li>
+                                <li><span>3d Design</span><br>Using Blender to modelling, texturing and rendering 3d objects.</li>
+                            </ul>
+                        </div>
+                        <!--experience-->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2020 June - 2021 June</span><br>Graphic Designer member of a multimedia school organization Jandela Sakola</li>
+                                <li><span>2021 Sep - 2021 Dec</span><br>Intern Graphic Designer at Pt.Bara Prima Multi Teknovasi</li>
+                                <li><span>2022 Sep - 2023 Feb</span><br>Fulltime Graphic Designer & Content Creator at Slava Footwear</li>
+                            </ul>
+                        </div>
+                        <!--education-->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2010 - 2016</span><br>SDN KARANG MEKAR MANDIRI 2</li>
+                                <li><span>2016 - 2019</span><br>SMP NEGERI 5 CIMAHI</li>
+                                <li><span>2019 - 2022</span><br>SMK NEGERI 2 CIMAHI</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------free space---------->
+       
+        <!-- --------- porfolio------------ -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Portfolio</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/shirt print design.png">
+                        <div class="layer">
+                            <h3>Design</h3>
+                            <p>My design for various need such as poster, banner, logo, printing, etc.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/motion design.png">
+                        <div class="layer">
+                            <h3>Video</h3>
+                            <p>Showcase of edited videos and motion graphics.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/3d design.png">
+                        <div class="layer">
+                            <h3>3d Model</h3>
+                            <p>3d models i made for a branding project or just for fun.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------------contact------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title-c">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i> daikunodesign@gmail.com</p>
+                        <p><i class="fa-brands fa-whatsapp"></i> +6287753714606</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://instagram.com/shi_daiku/"><i class="fa-brands fa-instagram"></i></i></a>
+                            <a href="https://www.linkedin.com/in/muhamad-sidiq-6b3egc3a2022/"><i class="fa-brands fa-linkedin"></i></i></a>
+                        </div>
+                        <a href="" class="btn">Download Cv</a>
+                        <div class="thanks">
+                            <p>Thank you for your visit ^^</p>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <h1>Contact Form</h1>
+                            <input type="text" name="Name" placeholder="Your Name" autocomplete="off" required >
+                            <input type="email" name="Email" placeholder="Your Email" autocomplete="off" required>
+                            <textarea name="message" rows="6" placeholder="Your Message" autocomplete="off" required></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+    </body>
+</html>
